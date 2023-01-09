@@ -1,0 +1,43 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Requêtes SQL permettant d'interroger la base de données</h1>
+    <p> 
+        Location_voiture
+        R1:Créer une requête qui permet d'afficher les marques et les couleurs de toutes les voitures:
+        SELECT `marque` , `couleur`
+        FROM `voiture`<br>
+        R2: Afficher une requête qui permet d'afficher une ville specifique:
+        SELECT *
+        FROM `clients`
+        WHERE `ville` = 'paris'
+        LIMIT 0 , 30<br>
+        R3: Afficher les immatriculation et les marques des voitures ayant un kilomètrage<10000:
+        SELECT `immatriculation` , `marque`
+        FROM `voiture`
+        WHERE `kilometrage` <59000
+        LIMIT 0 , 30
+        R4: afficher la liste des voitures noires ayant un kilometrage <25000:
+        SELECT *
+        FROM `voiture`
+        WHERE `couleur` = 'noire'
+        AND `kilometrage` <25000
+        LIMIT 0 , 30
+        R5: Afficher toutes les les location réaliser par le client 12A:
+        SELECT *
+        FROM `location`
+        WHERE `code_client` = '12A'
+        LIMIT 0 , 30
+        R6:à l'aide d'une requete sql, inserer une voiture :INSERT INTO voiture ( immatriculation , marque , couleur , kilométrage , année_circulation , modele )
+        VALUES (
+        '15 TU 2040', 'Mercedes', 'noire', 20000, '2000-12-12', 'CLASSE E'
+        );</p>
+         
+</body>
+</html>

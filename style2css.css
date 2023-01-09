@@ -1,0 +1,24 @@
+body
+{background-color: skyblue;}
+
+h1
+
+
+{color: darkred;
+}
+
+
+h2
+{color: darkred;}
+
+
+h3
+{color: darkred;}
+
+
+.cadre1{background-color: lightblue ;border: 4px solid green;text-align: center;width: 60% height:
+	180px; }
+
+	.cadre2{background-color: lightblue;border: 4px solid blue;text-align: center;width: 20%height
+	180px;}
+	.cadre3{background-color: hotpink;border: 4px solid yellow;width:width: 100%;height: 420px;}

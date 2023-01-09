@@ -1,0 +1,48 @@
+body
+{
+	background-color: blueviolet;
+	text-align: center;
+}
+div
+{
+	height: 310px;
+	width: 150px;
+float: LEFT;
+border: 2px solid green;
+float: left;
+margin-right: 20px;
+}
+	
+{
+	text-align: center;
+	background-color: brown;
+}
+.c1 
+{
+width: 90%;
+height: 55px;
+text-align: center;
+border-radius: 90px;
+}
+.c2
+{
+	border-radius: 10px;
+	
+}
+
+
+.c7
+{ 
+height: 25px;
+border: solid blue 2px	;
+background-color: darkblue;
+border-radius: 90px;
+}
+
+
+.c5
+{
+	height: 55px;
+	width: 90%;
+	border-radius: 90px;
+}

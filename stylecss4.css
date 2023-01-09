@@ -1,0 +1,39 @@
+body
+{
+background-color: lightblue;
+text-align: center;
+margin: 50px;
+}
+div
+{
+height: 300px;
+width: 150px;
+border: 2px solid darkblue;
+float: left;
+margin-right: 20px;
+}
+.c2
+{
+	background-color: green;
+}
+.c1
+{
+background-color: darkred;
+}
+.c3
+{
+	background-color: yellow;
+}
+.c4
+{
+	clear: both;
+}
+
+div
+.c4	
+{
+	clear: both;
+	text-align: center;
+	;
+}
+

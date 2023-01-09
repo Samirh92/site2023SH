@@ -1,0 +1,51 @@
+body
+{
+	background: black;
+	text-align: center	
+
+}
+h1
+{
+color: darkred;
+text-align: center	;
+
+
+}
+div
+{
+	width: 30%;
+border: 5px solid darkred;
+margin-top: auto;
+margin-right: auto;
+margin-left: auto;
+border-radius: 60px;
+
+}
+input
+{
+	color: whitesmoke;
+	background-color: black;
+	border-color: darkred;
+border-radius: 60px;
+height: 35px;
+width:350px;
+
+}
+button
+{
+border: 2px solid black;
+color: black;
+cursor: pointer;
+margin-top: 35px;
+background-color: darkred;
+border-radius: 60px;
+height: 50px;
+width: 200px;
+}
+button:hover
+{
+	background-color: black;
+	color: darkred;
+	border: 2px solid darkred;
+
+}

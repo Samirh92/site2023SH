@@ -1,0 +1,32 @@
+
+div#menu{
+ width: 100px; 
+}
+div#menu ul{
+	padding: 0;
+	width: 100px;
+		border: 1px solid;
+		margin: 0px;
+	}
+div#menu ul li {
+	position: relative;
+	list-style: none;
+	border-bottom: 1px solid blue;
+
+}
+div#menu ul li {
+	position: absolute;
+	top: 0;
+	left: 100px;
+
+}
+div#menu li a {
+	text-decoration: none;
+
+}
+div#menu ul ul{
+	position: absolute;
+	top: 0;
+	left: 100px;
+	display: none
+}

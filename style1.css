@@ -1,0 +1,32 @@
+body
+{background-color: darkblue;
+
+}
+h1
+
+
+ {color=white;
+}
+h2
+{
+	color: whitesmoke;
+}
+p{
+	color: whitesmoke;
+}
+
+}
+.cadre1{background-color: whitesmoke ;border: 4px solid darkred;text-align: center;width: 60% height:
+	180px;}
+
+
+.cadre2
+{
+background-color: green;
+border: 4px solid darkred;
+text-align: center;
+width: 60%;
+height: 180px;
+}
+
+
